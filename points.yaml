@@ -1,0 +1,2342 @@
+matrix_pinky_bottom:
+    x: 0
+    'y': 0
+    r: -20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_bottom
+        name: matrix_pinky_bottom
+        column_net: C0
+        row_net: R1
+        mirror:
+            row_net: R5
+        zone: &ref_1
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky: &ref_0
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring: &ref_2
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle: &ref_3
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index: &ref_4
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner: &ref_5
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col: *ref_0
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+        mirrored: false
+matrix_pinky_home:
+    x: 6.6714506
+    'y': 17.8436052
+    r: -20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_home
+        name: matrix_pinky_home
+        column_net: C0
+        row_net: R2
+        mirror:
+            row_net: R6
+        zone: *ref_1
+        col: *ref_0
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+        mirrored: false
+matrix_pinky_top:
+    x: 13.3429012
+    'y': 35.6872104
+    r: -20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: pinky_top
+        name: matrix_pinky_top
+        column_net: C0
+        row_net: R3
+        mirror:
+            row_net: R7
+        zone: *ref_1
+        col: *ref_0
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+        mirrored: false
+matrix_ring_bottom:
+    x: 22.4138115
+    'y': 5.5521215
+    r: -20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_bottom
+        name: matrix_ring_bottom
+        column_net: C1
+        row_net: R1
+        mirror:
+            row_net: R5
+        zone: *ref_1
+        col: *ref_2
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+        mirrored: false
+matrix_ring_home:
+    x: 29.0852621
+    'y': 23.3957267
+    r: -20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_home
+        name: matrix_ring_home
+        column_net: C1
+        row_net: R2
+        mirror:
+            row_net: R6
+        zone: *ref_1
+        col: *ref_2
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: false
+matrix_ring_top:
+    x: 35.7567128
+    'y': 41.2393319
+    r: -20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: ring_top
+        name: matrix_ring_top
+        column_net: C1
+        row_net: R3
+        mirror:
+            row_net: R7
+        zone: *ref_1
+        col: *ref_2
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+        mirrored: false
+matrix_middle_bottom:
+    x: 44.1272083
+    'y': 9.2308985
+    r: -20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_bottom
+        name: matrix_middle_bottom
+        column_net: C2
+        row_net: R1
+        mirror:
+            row_net: R5
+        zone: *ref_1
+        col: *ref_3
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+        mirrored: false
+matrix_middle_home:
+    x: 50.7986589
+    'y': 27.0745037
+    r: -20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_home
+        name: matrix_middle_home
+        column_net: C2
+        row_net: R2
+        mirror:
+            row_net: R6
+        zone: *ref_1
+        col: *ref_3
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: false
+matrix_middle_top:
+    x: 57.4701095
+    'y': 44.9181089
+    r: -20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: middle_top
+        name: matrix_middle_top
+        column_net: C2
+        row_net: R3
+        mirror:
+            row_net: R7
+        zone: *ref_1
+        col: *ref_3
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+        mirrored: false
+matrix_index_bottom:
+    x: 59.5018515
+    'y': -4.044091
+    r: -20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_bottom
+        name: matrix_index_bottom
+        column_net: C3
+        row_net: R1
+        mirror:
+            row_net: R5
+        zone: *ref_1
+        col: *ref_4
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+        mirrored: false
+matrix_index_home:
+    x: 66.1733021
+    'y': 13.7995142
+    r: -20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_home
+        name: matrix_index_home
+        column_net: C3
+        row_net: R2
+        mirror:
+            row_net: R6
+        zone: *ref_1
+        col: *ref_4
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: false
+matrix_index_top:
+    x: 72.8447527
+    'y': 31.6431194
+    r: -20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: index_top
+        name: matrix_index_top
+        column_net: C3
+        row_net: R3
+        mirror:
+            row_net: R7
+        zone: *ref_1
+        col: *ref_4
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+        mirrored: false
+matrix_inner_bottom:
+    x: 75.5769094
+    'y': -15.4457362
+    r: -20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_bottom
+        name: matrix_inner_bottom
+        column_net: C4
+        row_net: R1
+        mirror:
+            row_net: R5
+        zone: *ref_1
+        col: *ref_5
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+        mirrored: false
+matrix_inner_home:
+    x: 82.24836
+    'y': 2.397869
+    r: -20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_home
+        name: matrix_inner_home
+        column_net: C4
+        row_net: R2
+        mirror:
+            row_net: R6
+        zone: *ref_1
+        col: *ref_5
+        row: home
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+        mirrored: false
+matrix_inner_top:
+    x: 88.9198106
+    'y': 20.2414742
+    r: -20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: inner_top
+        name: matrix_inner_top
+        column_net: C4
+        row_net: R3
+        mirror:
+            row_net: R7
+        zone: *ref_1
+        col: *ref_5
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+        mirrored: false
+thumbfan_near_thumb:
+    x: 59.9836562
+    'y': -29.9536161
+    r: -20.5
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: near_thumb
+        name: thumbfan_near_thumb
+        column_net: C2
+        row_net: R0
+        mirror:
+            row_net: R4
+        zone: &ref_7
+            columns:
+                near: &ref_6
+                    key:
+                        column_net: C2
+                    rows: {}
+                    name: near
+                home: &ref_8
+                    key:
+                        column_net: C3
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: home
+                far: &ref_9
+                    key:
+                        column_net: C4
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: far
+            rows:
+                thumb:
+                    row_net: R0
+                    mirror:
+                        row_net: R4
+            name: thumbfan
+        col: *ref_6
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: false
+thumbfan_home_thumb:
+    x: 80.5941602
+    'y': -39.9960341
+    r: -32.5
+    meta:
+        stagger: 0
+        spread: 21.05
+        splay: -12
+        origin:
+            - -9.525
+            - -9.525
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: home_thumb
+        name: thumbfan_home_thumb
+        column_net: C3
+        row_net: R0
+        mirror:
+            row_net: R4
+        zone: *ref_7
+        col: *ref_8
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: false
+thumbfan_far_thumb:
+    x: 98.6663391
+    'y': -54.1041657
+    r: -44.5
+    meta:
+        stagger: 0
+        spread: 21.05
+        splay: -12
+        origin:
+            - -9.525
+            - -9.525
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: far_thumb
+        name: thumbfan_far_thumb
+        column_net: C4
+        row_net: R0
+        mirror:
+            row_net: R4
+        zone: *ref_7
+        col: *ref_9
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: false
+mirror_matrix_pinky_bottom:
+    x: 233.3429012
+    'y': 0
+    r: 20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_bottom
+        name: mirror_matrix_pinky_bottom
+        column_net: C0
+        row_net: R5
+        mirror:
+            row_net: R5
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                column_net: C0
+            rows: {}
+            name: pinky
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+        mirrored: true
+mirror_matrix_pinky_home:
+    x: 226.67145060000001
+    'y': 17.8436052
+    r: 20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_home
+        name: mirror_matrix_pinky_home
+        column_net: C0
+        row_net: R6
+        mirror:
+            row_net: R6
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                column_net: C0
+            rows: {}
+            name: pinky
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 0
+        mirrored: true
+mirror_matrix_pinky_top:
+    x: 220
+    'y': 35.6872104
+    r: 20.5
+    meta:
+        stagger: 0
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_pinky_top
+        name: mirror_matrix_pinky_top
+        column_net: C0
+        row_net: R7
+        mirror:
+            row_net: R7
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                column_net: C0
+            rows: {}
+            name: pinky
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+        mirrored: true
+mirror_matrix_ring_bottom:
+    x: 210.9290897
+    'y': 5.5521215
+    r: 20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_bottom
+        name: mirror_matrix_ring_bottom
+        column_net: C1
+        row_net: R5
+        mirror:
+            row_net: R5
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-6
+                column_net: C1
+            rows: {}
+            name: ring
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 10
+        mirrored: true
+mirror_matrix_ring_home:
+    x: 204.2576391
+    'y': 23.3957267
+    r: 20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_home
+        name: mirror_matrix_ring_home
+        column_net: C1
+        row_net: R6
+        mirror:
+            row_net: R6
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-6
+                column_net: C1
+            rows: {}
+            name: ring
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: true
+mirror_matrix_ring_top:
+    x: 197.5861884
+    'y': 41.2393319
+    r: 20.5
+    meta:
+        stagger: 13.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_ring_top
+        name: mirror_matrix_ring_top
+        column_net: C1
+        row_net: R7
+        mirror:
+            row_net: R7
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-6
+                column_net: C1
+            rows: {}
+            name: ring
+        row: top
+        bind:
+            - 0
+            - 10
+            - 10
+            - 0
+        mirrored: true
+mirror_matrix_middle_bottom:
+    x: 189.2156929
+    'y': 9.2308985
+    r: 20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_bottom
+        name: mirror_matrix_middle_bottom
+        column_net: C2
+        row_net: R5
+        mirror:
+            row_net: R5
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-8
+                column_net: C2
+            rows: {}
+            name: middle
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 10
+        mirrored: true
+mirror_matrix_middle_home:
+    x: 182.5442423
+    'y': 27.0745037
+    r: 20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_home
+        name: mirror_matrix_middle_home
+        column_net: C2
+        row_net: R6
+        mirror:
+            row_net: R6
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-8
+                column_net: C2
+            rows: {}
+            name: middle
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: true
+mirror_matrix_middle_top:
+    x: 175.8727917
+    'y': 44.9181089
+    r: 20.5
+    meta:
+        stagger: 11.05
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_middle_top
+        name: mirror_matrix_middle_top
+        column_net: C2
+        row_net: R7
+        mirror:
+            row_net: R7
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: px-8
+                column_net: C2
+            rows: {}
+            name: middle
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 0
+        mirrored: true
+mirror_matrix_index_bottom:
+    x: 173.84104969999999
+    'y': -4.044091
+    r: 20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_bottom
+        name: mirror_matrix_index_bottom
+        column_net: C3
+        row_net: R5
+        mirror:
+            row_net: R5
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-12)'
+                column_net: C3
+            rows: {}
+            name: index
+        row: bottom
+        bind:
+            - 10
+            - 10
+            - 0
+            - 0
+        mirrored: true
+mirror_matrix_index_home:
+    x: 167.1695991
+    'y': 13.7995142
+    r: 20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_home
+        name: mirror_matrix_index_home
+        column_net: C3
+        row_net: R6
+        mirror:
+            row_net: R6
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-12)'
+                column_net: C3
+            rows: {}
+            name: index
+        row: home
+        bind:
+            - 10
+            - 10
+            - 10
+            - 10
+        mirrored: true
+mirror_matrix_index_top:
+    x: 160.4981485
+    'y': 31.6431194
+    r: 20.5
+    meta:
+        stagger: -7.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_index_top
+        name: mirror_matrix_index_top
+        column_net: C3
+        row_net: R7
+        mirror:
+            row_net: R7
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-12)'
+                column_net: C3
+            rows: {}
+            name: index
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+        mirrored: true
+mirror_matrix_inner_bottom:
+    x: 157.7659918
+    'y': -15.4457362
+    r: 20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_bottom
+        name: mirror_matrix_inner_bottom
+        column_net: C4
+        row_net: R5
+        mirror:
+            row_net: R5
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-14)'
+                column_net: C4
+            rows: {}
+            name: inner
+        row: bottom
+        bind:
+            - 10
+            - 0
+            - 0
+            - 0
+        mirrored: true
+mirror_matrix_inner_home:
+    x: 151.09454119999998
+    'y': 2.397869
+    r: 20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_home
+        name: mirror_matrix_inner_home
+        column_net: C4
+        row_net: R6
+        mirror:
+            row_net: R6
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-14)'
+                column_net: C4
+            rows: {}
+            name: inner
+        row: home
+        bind:
+            - 10
+            - 0
+            - 10
+            - 10
+        mirrored: true
+mirror_matrix_inner_top:
+    x: 144.4230906
+    'y': 20.2414742
+    r: 20.5
+    meta:
+        stagger: -5.050000000000001
+        spread: 19.05
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19.05
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_inner_top
+        name: mirror_matrix_inner_top
+        column_net: C4
+        row_net: R7
+        mirror:
+            row_net: R7
+        zone:
+            key:
+                padding: px
+                spread: py
+            columns:
+                pinky:
+                    key:
+                        column_net: C0
+                    rows: {}
+                    name: pinky
+                ring:
+                    key:
+                        stagger: px-6
+                        column_net: C1
+                    rows: {}
+                    name: ring
+                middle:
+                    key:
+                        stagger: px-8
+                        column_net: C2
+                    rows: {}
+                    name: middle
+                index:
+                    key:
+                        stagger: '-(px-12)'
+                        column_net: C3
+                    rows: {}
+                    name: index
+                inner:
+                    key:
+                        stagger: '-(px-14)'
+                        column_net: C4
+                    rows: {}
+                    name: inner
+            rows:
+                bottom:
+                    row_net: R1
+                    mirror:
+                        row_net: R5
+                home:
+                    row_net: R2
+                    mirror:
+                        row_net: R6
+                top:
+                    row_net: R3
+                    mirror:
+                        row_net: R7
+            name: matrix
+        col:
+            key:
+                stagger: '-(px-14)'
+                column_net: C4
+            rows: {}
+            name: inner
+        row: top
+        bind:
+            - 0
+            - 0
+            - 10
+            - 10
+        mirrored: true
+mirror_thumbfan_near_thumb:
+    x: 173.359245
+    'y': -29.9536161
+    r: 20.5
+    meta:
+        stagger: 0
+        spread: 19
+        splay: 0
+        origin:
+            - 0
+            - 0
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_near_thumb
+        name: mirror_thumbfan_near_thumb
+        column_net: C2
+        row_net: R4
+        mirror:
+            row_net: R4
+        zone:
+            columns:
+                near:
+                    key:
+                        column_net: C2
+                    rows: {}
+                    name: near
+                home:
+                    key:
+                        column_net: C3
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        column_net: C4
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: far
+            rows:
+                thumb:
+                    row_net: R0
+                    mirror:
+                        row_net: R4
+            name: thumbfan
+        col:
+            key:
+                column_net: C2
+            rows: {}
+            name: near
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: true
+mirror_thumbfan_home_thumb:
+    x: 152.748741
+    'y': -39.9960341
+    r: 32.5
+    meta:
+        stagger: 0
+        spread: 21.05
+        splay: -12
+        origin:
+            - -9.525
+            - -9.525
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_home_thumb
+        name: mirror_thumbfan_home_thumb
+        column_net: C3
+        row_net: R4
+        mirror:
+            row_net: R4
+        zone:
+            columns:
+                near:
+                    key:
+                        column_net: C2
+                    rows: {}
+                    name: near
+                home:
+                    key:
+                        column_net: C3
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        column_net: C4
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: far
+            rows:
+                thumb:
+                    row_net: R0
+                    mirror:
+                        row_net: R4
+            name: thumbfan
+        col:
+            key:
+                column_net: C3
+                spread: px+2
+                splay: '-thumb_rotation'
+                origin:
+                    - '-(px)/2'
+                    - '-py/2'
+            rows: {}
+            name: home
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: true
+mirror_thumbfan_far_thumb:
+    x: 134.6765621
+    'y': -54.1041657
+    r: 44.5
+    meta:
+        stagger: 0
+        spread: 21.05
+        splay: -12
+        origin:
+            - -9.525
+            - -9.525
+        orient: 0
+        shift:
+            - 0
+            - 0
+        rotate: 0
+        adjust: {}
+        width: 18
+        height: 18
+        padding: 19
+        autobind: 10
+        skip: false
+        asym: both
+        colrow: mirror_far_thumb
+        name: mirror_thumbfan_far_thumb
+        column_net: C4
+        row_net: R4
+        mirror:
+            row_net: R4
+        zone:
+            columns:
+                near:
+                    key:
+                        column_net: C2
+                    rows: {}
+                    name: near
+                home:
+                    key:
+                        column_net: C3
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: home
+                far:
+                    key:
+                        column_net: C4
+                        spread: px+2
+                        splay: '-thumb_rotation'
+                        origin:
+                            - '-(px)/2'
+                            - '-py/2'
+                    rows: {}
+                    name: far
+            rows:
+                thumb:
+                    row_net: R0
+                    mirror:
+                        row_net: R4
+            name: thumbfan
+        col:
+            key:
+                column_net: C4
+                spread: px+2
+                splay: '-thumb_rotation'
+                origin:
+                    - '-(px)/2'
+                    - '-py/2'
+            rows: {}
+            name: far
+        row: thumb
+        bind:
+            - 0
+            - 0
+            - 0
+            - 0
+        mirrored: true

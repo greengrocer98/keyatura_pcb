@@ -1,0 +1,123 @@
+(footprint "LED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3ada4e5b-be6f-428d-b738-fbb4a41f55e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a0c66fb-74b0-459f-92cf-b0ad50acbdf1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65715a59-1c6c-44dd-aaac-5bdd55abe8fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd9b1dbe-08e9-4031-8aaf-74c3e2fe9f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -0.3)
+		(end -0.3 0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00f54b1d-85a7-4742-9927-a7538dfd9577")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.3 -0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a6933f0-5226-4f8b-b213-5de3ad835d34")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a06e212-43b2-41c3-b7ec-bb34c08cca52")
+	)
+	(fp_line
+		(start 0.3 -0.3)
+		(end 0.3 0.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6cdea0d-1f87-4324-a612-f451d61b3a19")
+	)
+	(pad "1" thru_hole roundrect
+		(at 1 0)
+		(size 0.8 0.8)
+		(drill 0.2)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "e9ac63fa-c40b-43fc-b9c1-42193b73c358")
+	)
+	(pad "2" thru_hole rect
+		(at -1 0)
+		(size 0.8 0.8)
+		(drill 0.2)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(uuid "cbab2f0c-ce5f-4591-884b-f983fc32b072")
+	)
+	(group ""
+		(uuid "380066d5-e6ab-4ac8-8b3f-e28eafbcddd2")
+		(members "00f54b1d-85a7-4742-9927-a7538dfd9577" "3a06e212-43b2-41c3-b7ec-bb34c08cca52"
+			"4a6933f0-5226-4f8b-b213-5de3ad835d34" "e6cdea0d-1f87-4324-a612-f451d61b3a19"
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,68 @@
+meta:
+  engine: 4.0.2
+  author: ggrocer
+units:
+  # Proxy Spacing Variables
+  kx: 19.05
+  ky: 19.05
+  # Padding Variables
+  px: kx
+  py: ky
+  # Thumb rotation
+  thumb_rotation: 12
+points:
+  zones:
+    matrix:
+      key:
+        padding: px
+        spread: py
+      columns:
+        pinky:
+          key.column_net: C0
+        ring:
+          key.stagger: px-6
+          key.column_net: C1
+        middle:
+          key.stagger: px-8
+          key.column_net: C2
+        index:
+          key.stagger: -(px-12)
+          key.column_net: C3
+        inner:
+          key.stagger: -(px-14)
+          key.column_net: C4
+      rows:
+        bottom:
+          row_net: R1
+          mirror.row_net: R5
+        home:
+          row_net: R2
+          mirror.row_net: R6
+        top:
+          row_net: R3
+          mirror.row_net: R7
+    thumbfan:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-px/2, -py]
+      columns:
+        near:
+          key.column_net: C2
+        home:
+          key.column_net: C3
+          key.spread: px+2
+          key.splay: -thumb_rotation
+          key.origin: [-(px)/2, -py/2]
+        far:
+          key.column_net: C4
+          key.spread: px+2
+          key.splay: -thumb_rotation
+          key.origin: [-(px)/2, -py/2]
+      rows:
+        thumb:
+          row_net: R0
+          mirror.row_net: R4
+  rotate: -20.5
+  mirror:
+    ref: matrix_pinky_home
+    distance: 220

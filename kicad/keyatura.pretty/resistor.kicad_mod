@@ -1,0 +1,78 @@
+(footprint "resistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aa48f0cd-367b-45e2-838f-b6ac4d928980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "resistor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6a3743a-15f3-4773-8168-46e004bab99e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d9cbc9-cfdd-4e57-bdbf-e500c21bbde9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f752541c-e4cf-4789-81a4-2117dc75bc34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole roundrect
+		(at 1 0)
+		(size 0.8 0.8)
+		(drill 0.2)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "077d366d-77d1-4084-96c1-42beb531e6b1")
+	)
+	(pad "2" thru_hole roundrect
+		(at -1 0)
+		(size 0.8 0.8)
+		(drill 0.2)
+		(layers "*.Cu" "F.Mask" "F.Paste")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "2612e751-dfcf-409e-9ea1-25f904cfe33f")
+	)
+	(embedded_fonts no)
+)
