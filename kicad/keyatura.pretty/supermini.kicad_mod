@@ -56,36 +56,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -3.56 -13.43)
-		(end -3.56 -17.01)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "9be516e4-576e-4290-b4cc-0f4c4e024582")
-	)
-	(fp_line
-		(start 3.54 -13.43)
-		(end -3.56 -13.43)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "abdcd765-25d1-4a66-b650-f5f4e8974406")
-	)
-	(fp_line
-		(start 3.54 -13.43)
-		(end 3.54 -17.01)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "302457fa-8c19-48ff-bab4-40c4672eb375")
-	)
 	(fp_rect
 		(start -8.89 -17)
 		(end 8.89 16)
@@ -94,68 +64,19 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Cmts.User")
 		(uuid "b41c8bf4-c53c-4a92-a7cc-d2ca8a91c3a3")
 	)
 	(fp_rect
-		(start -3.56 -18.53)
-		(end 3.54 -13.43)
+		(start -3.55 -18.55)
+		(end 3.55 -13.45)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
-		(layer "F.SilkS")
+		(layer "Cmts.User")
 		(uuid "59910934-bff0-4bb7-9251-e094963f9e5e")
-	)
-	(fp_rect
-		(start 8.88 -17.01)
-		(end -8.9 16.01)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Cmts.User")
-		(uuid "0eaa12bf-34b4-4208-97be-d4808edef60b")
-	)
-	(fp_text user "USB"
-		(at -0.01 -15.43 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "6969dc7e-1892-46ce-90e8-e0ab4873cc10")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "tow. PCB"
-		(at -0.01 -14.03 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "8650857e-4c55-4aa1-97f1-28c12f35af25")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "USB"
-		(at -0.01 -15.43 0)
-		(layer "Cmts.User")
-		(uuid "31e15774-5ff2-4edc-ae06-d073990733f9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
 	)
 	(pad "1" thru_hole circle
 		(at 7.61 -13.2)
@@ -353,8 +274,7 @@
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "B.Cu")
-		(uuid "29e1b734-fe25-4be3-891a-5c29600e0a82")
-		(name "ANT")
+		(uuid "33baff3e-b3e0-453e-bc4a-aa831328573a")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -378,7 +298,7 @@
 		)
 		(polygon
 			(pts
-				(xy -11.92 8.348137) (xy 11.935726 8.425447) (xy 11.903443 19.27) (xy -11.92 19.27)
+				(xy -10.9 11) (xy -10.9 22.4) (xy 10.9 22.4) (xy 10.9 11)
 			)
 		)
 	)

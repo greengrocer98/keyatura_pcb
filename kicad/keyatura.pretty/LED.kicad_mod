@@ -99,7 +99,7 @@
 	(pad "1" thru_hole roundrect
 		(at 1 0)
 		(size 0.8 0.8)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -108,7 +108,7 @@
 	(pad "2" thru_hole rect
 		(at -1 0)
 		(size 0.8 0.8)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(uuid "cbab2f0c-ce5f-4591-884b-f983fc32b072")

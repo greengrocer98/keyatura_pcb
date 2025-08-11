@@ -85,7 +85,7 @@
 	(pad "1" thru_hole roundrect
 		(at -5 0)
 		(size 2 2)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "B.Mask" "B.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
@@ -95,7 +95,7 @@
 	(pad "2" thru_hole roundrect
 		(at 5 0)
 		(size 2 2)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "B.Mask" "B.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)

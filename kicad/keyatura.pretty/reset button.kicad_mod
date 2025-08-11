@@ -59,7 +59,7 @@
 	(pad "1" thru_hole roundrect
 		(at -2.9 0)
 		(size 1.5 1.5)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -69,7 +69,7 @@
 	(pad "1" thru_hole roundrect
 		(at 2.9 0)
 		(size 1.5 1.5)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -79,7 +79,7 @@
 	(pad "2" thru_hole roundrect
 		(at -2.9 3.7)
 		(size 1.5 1.5)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -89,7 +89,7 @@
 	(pad "2" thru_hole roundrect
 		(at 2.9 3.7)
 		(size 1.5 1.5)
-		(drill 0.2)
+		(drill 0.4)
 		(layers "*.Cu" "F.Mask" "F.Paste")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
