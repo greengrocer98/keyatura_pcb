@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -56,28 +56,18 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.5 -0.5)
-		(end -0.5 0.5)
+		(start -0.4 0.5)
+		(end -0.4 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ed4b4d72-a656-4625-91fc-794551aa0a00")
+		(uuid "7488cc20-9c37-4b74-8edf-458066b34c5b")
 	)
 	(fp_line
-		(start -0.5 0)
-		(end 0.4 -0.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9190b3f1-cf51-4914-9837-faba5e18beb0")
-	)
-	(fp_line
-		(start -0.5 0)
-		(end 0.4 0.5)
+		(start 0.5 0)
+		(end -0.4 -0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -86,14 +76,24 @@
 		(uuid "00fed5c8-7f18-4299-ac04-61aec9368e8a")
 	)
 	(fp_line
-		(start 0.4 -0.5)
-		(end 0.4 0.5)
+		(start 0.5 0)
+		(end -0.4 0.5)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7488cc20-9c37-4b74-8edf-458066b34c5b")
+		(uuid "9190b3f1-cf51-4914-9837-faba5e18beb0")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed4b4d72-a656-4625-91fc-794551aa0a00")
 	)
 	(pad "1" thru_hole roundrect
 		(at 1.7875 0)
