@@ -1,5 +1,7 @@
 # KEYATURA
 Keyatura (/ˌkeɪ.əˈtʊə.rə/) - 36-key ergonomic keyboard with MX-spacing and support of choc_v2v1/MX switches.
+
+![](images/keyatura_side.jpg)
 ### Features
 * Promicro compatible MCU
 * Hotswap for choc/MX
